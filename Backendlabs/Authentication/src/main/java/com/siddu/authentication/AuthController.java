@@ -10,6 +10,6 @@ public class AuthController {
 
     @GetMapping("/auth/login")
     public String login(){
-        return "login success";
+        return "login successfully";
     }
 }
